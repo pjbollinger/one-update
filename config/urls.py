@@ -18,5 +18,5 @@ from django.urls import path
 from landing.views import LandingPageView
 
 urlpatterns = [
-    path("", LandingPageView.as_view()),
+    path("", LandingPageView.as_view(), name="home"),
 ]
